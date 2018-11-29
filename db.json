@@ -1,0 +1,65 @@
+{
+  "parentCategories": 
+  [
+    {
+			"id": 1,
+			"name": "Catégorie 1",
+			"icon": "http://placehold.jp/24/006699/cccc00/50x50.png?text=C1",
+			"children": [1, 2]
+		},
+		{
+			"id": 2,
+			"name": "Catégorie 2",
+			"icon": "http://placehold.jp/24/005699/ccc200/50x50.png?text=C2",
+			"children": []
+		},
+		{
+			"id": 3,
+			"name": "Catégorie 3",
+			"icon": "http://placehold.jp/24/006693/c5cc00/50x50.png?text=C3",
+			"children": [3, 4, 5]
+		},
+		{
+			"id": 4,
+			"name": "Catégorie 4",
+			"icon": "http://placehold.jp/24/056693/25cc00/50x50.png?text=C4",
+			"children": []
+		}
+	],
+  "childCategories": 
+  [
+		{
+			"id": 1,
+			"parent": 1,
+			"name": "Catégorie 1-1",
+			"icon": "http://placehold.jp/24/005699/ccc200/75x75.png?text=C1-1"
+		},
+		{
+			"id": 2,
+			"parent": 1,
+			"name": "Catégorie 1-2",
+			"icon": "http://placehold.jp/24/005699/ccc200/75x75.png?text=C1-2"
+		},
+		{
+			"id": 3,
+			"parent": 3,
+			"name": "Catégorie 3-1",
+			"icon": "http://placehold.jp/24/005699/ccc200/75x75.png?text=C3-1"
+		},
+		{
+			"id": 4,
+			"parent": 3,
+			"name": "Catégorie 3-2",
+			"icon": "http://placehold.jp/24/005699/ccc200/75x75.png?text=C3-2"
+		},
+		{
+			"id": 5,
+			"parent": 3,
+			"name": "Catégorie 3-3",
+			"icon": "http://placehold.jp/24/005699/ccc200/75x75.png?text=C3-3"
+		}
+	],
+	"profile": {
+		"name": "typicode"
+	}
+}
